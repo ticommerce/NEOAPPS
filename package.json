@@ -1,0 +1,18 @@
+{
+  "name": "neoapps-recepcion",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "test": "pnpm --filter web test",
+    "db:start": "supabase start",
+    "db:reset": "supabase db reset",
+    "db:types": "supabase gen types typescript > apps/web/src/lib/database.types.ts",
+    "db:seed": "node --env-file=apps/web/.env.local scripts/seed.mjs"
+  },
+  "devDependencies": {
+    "supabase": "latest"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "title": "{name}: recepcionista con IA para su negocio",
+    "description": "Una recepcionista con inteligencia artificial que atiende llamadas y WhatsApp las 24 horas: responde preguntas, toma pedidos y agenda citas con la información real de su negocio."
+  },
+  "businessTypes": {
+    "restaurant": "Restaurante o soda",
+    "salon": "Salón de belleza o barbería",
+    "clinic": "Clínica o consultorio",
+    "workshop": "Taller",
+    "other": "Otro"
+  },
+  "landing": {
+    "nav": {
+      "label": "Secciones",
+      "how": "Cómo funciona",
+      "features": "Funciones",
+      "industries": "Negocios",
+      "pricing": "Precios",
+      "faq": "Preguntas",
+      "login": "Ingresar",
+      "cta": "Pedir demostración"
+    },
+    "whatsappMessage": "Hola, quiero saber más sobre la recepcionista con IA para mi negocio.",
+    "whatsappFab": "Escribirnos por WhatsApp",
+    "hero": {
+      "eyebrow": "Recepcionista con IA para negocios pequeños",
+      "title": "Ninguna llamada ni WhatsApp se queda sin respuesta",
+      "lead": "Atiende a sus clientes las 24 horas: responde preguntas, toma pedidos y agenda citas con la información real de su negocio. Usted sigue trabajando.",
+      "primary": "Pedir demostración",
+      "secondary": "Escribir por WhatsApp",
+      "points": ["Llamadas y WhatsApp", "Atención 24/7", "En español de aquí"]
+    },
+    "demo": {
+      "tabs": "Ejemplos de conversación",
+      "online": "en línea · responde al instante",
+      "replay": "Repetir",
+      "typing": "Escribiendo",
+      "note": "Conversación de ejemplo con un negocio ficticio.",
+      "scripts": [
+        {
+          "id": "restaurante",
+          "label": "Restaurante",
+          "business": "Soda La Guaria",
+          "messages": [
+            { "from": "customer", "text": "Buenas, ¿todavía están sirviendo almuerzos?" },
+            { "from": "agent", "text": "¡Buenas! Sí, hoy servimos almuerzos hasta las 3:00 p. m. ¿Le gustaría hacer un pedido?" },
+            { "from": "customer", "text": "Sí, un casado con pollo y un fresco de cas. Para recoger." },
+            { "from": "agent", "text": "Con gusto:\n• Casado con pollo: ₡3 800\n• Fresco de cas: ₡1 200\nTotal: ₡5 000. ¿A nombre de quién lo anoto?" },
+            { "from": "customer", "text": "Mariela. ¿Tienen opción sin gluten?" },
+            { "from": "agent", "text": "Ese dato no lo tengo confirmado y no quiero darle información equivocada. Ya le pasé la consulta al personal y le responden por aquí. Su pedido queda listo en 20 minutos, Mariela." }
+          ]
+        },
+        {
+          "id": "salon",
+          "label": "Salón",
+          "business": "Salón Brisa",
+          "messages": [
+            { "from": "customer", "text": "Hola, ¿cuánto cuesta el corte de dama?" },
+            { "from": "agent", "text": "¡Hola! El corte de dama cuesta ₡9 000 y dura unos 45 minutos. ¿Quiere que le busque un espacio?" },
+            { "from": "customer", "text": "Sí, el viernes en la tarde si se puede." },
+            { "from": "agent", "text": "El viernes tengo libre a las 2:00 p. m. o a las 4:30 p. m. con Daniela. ¿Cuál le sirve?" },
+            { "from": "customer", "text": "A las 4:30." },
+            { "from": "agent", "text": "Listo, quedó agendada el viernes a las 4:30 p. m. con Daniela. Un día antes le envío un recordatorio por aquí." }
+          ]
+        }
+      ]
+    },
+    "how": {
+      "eyebrow": "Cómo funciona",
+      "title": "Lista en tres pasos",
+      "steps": [
+        { "title": "Nos cuenta de su negocio", "body": "Menú o servicios, precios, horarios, ubicación y políticas. Con eso se prepara su recepcionista." },
+        { "title": "Conectamos sus canales", "body": "Dejamos funcionando el número de teléfono y el WhatsApp del negocio. Usted no instala nada." },
+        { "title": "Ella atiende, usted supervisa", "body": "Cada conversación, pedido y cita queda en su panel. Si hace falta, usted toma la conversación." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Funciones",
+      "title": "Hace el trabajo de recepción completo",
+      "lead": "No es un contestador: entiende lo que el cliente necesita y lo resuelve.",
+      "items": [
+        { "icon": "book", "title": "Responde con sus datos", "body": "Precios, horarios, ubicación y políticas salen de la información que usted cargó. Nunca inventa." },
+        { "icon": "bag", "title": "Toma pedidos", "body": "Arma el pedido con su catálogo, calcula el total y lo deja en el panel para prepararlo." },
+        { "icon": "calendar", "title": "Agenda citas", "body": "Consulta la disponibilidad real, agenda, reprograma o cancela, y envía recordatorios." },
+        { "icon": "handoff", "title": "Sabe cuándo pasar la llamada", "body": "Si no tiene la respuesta, lo dice con claridad y avisa a su personal para que continúe." },
+        { "icon": "channels", "title": "Voz y WhatsApp", "body": "La misma recepcionista atiende los dos canales con la misma información." },
+        { "icon": "inbox", "title": "Todo en un panel", "body": "Conversaciones, llamadas con su resumen, pedidos, citas y clientes en un solo lugar." }
+      ]
+    },
+    "industries": {
+      "eyebrow": "Para su tipo de negocio",
+      "title": "Pensada para negocios que atienden gente todo el día",
+      "items": [
+        { "title": "Restaurantes y sodas", "body": "Menú, pedidos para recoger o entregar y consultas de horario mientras la cocina trabaja." },
+        { "title": "Salones y barberías", "body": "Citas por servicio y por persona, sin choques de horario y con recordatorio." },
+        { "title": "Clínicas y consultorios", "body": "Agenda de consultas, indicaciones previas y preguntas frecuentes de pacientes." },
+        { "title": "Talleres", "body": "Citas de revisión, consultas de servicios y avisos al cliente." }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Precios",
+      "title": "Un precio claro",
+      "lead": "Una mensualidad y un pago único para dejar todo funcionando.",
+      "monthlyLabel": "Mensualidad",
+      "perMonth": "por mes, por negocio",
+      "setupLabel": "Instalación",
+      "setupNote": "pago único",
+      "includedTitle": "Incluye",
+      "included": [
+        "Atención por llamadas y por WhatsApp",
+        "Pedidos, citas y recordatorios",
+        "Panel para su equipo, con roles",
+        "Carga inicial de su menú o servicios",
+        "Acompañamiento durante la instalación"
+      ],
+      "cta": "Quiero empezar"
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Lo que más nos preguntan",
+      "items": [
+        { "q": "¿Qué pasa si un cliente pregunta algo que la recepcionista no sabe?", "a": "Lo dice con claridad, sin inventar, y avisa a su personal para que alguien del equipo continúe la conversación." },
+        { "q": "¿Puedo intervenir en una conversación?", "a": "Sí. Desde el panel usted o su equipo pueden tomar cualquier conversación de WhatsApp y devolverla a la recepcionista cuando terminen." },
+        { "q": "¿Tengo que instalar algo?", "a": "No. El panel funciona en el navegador de su computadora o celular." },
+        { "q": "¿Qué pasa con mi número de teléfono actual?", "a": "Lo revisamos con usted durante la instalación. Lo usual es desviar las llamadas de su línea actual al número de la recepcionista." },
+        { "q": "¿De dónde saca los precios y horarios?", "a": "Solo de la información que usted carga en el panel: catálogo, horarios, políticas y preguntas frecuentes. Si cambia un precio ahí, cambia en las respuestas." }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "Véala atender su negocio",
+      "lead": "Déjenos sus datos y le mostramos una demostración con la información de su negocio.",
+      "whatsapp": "Prefiero escribir por WhatsApp",
+      "name": "Su nombre",
+      "phone": "Teléfono o WhatsApp",
+      "business": "Nombre del negocio",
+      "industry": "Tipo de negocio",
+      "industryPlaceholder": "Seleccione…",
+      "industries": ["Restaurante o soda", "Salón de belleza o barbería", "Clínica o consultorio", "Taller", "Otro"],
+      "email": "Correo (opcional)",
+      "message": "¿Algo que debamos saber? (opcional)",
+      "submit": "Enviar",
+      "success": "¡Recibido! Le contactamos pronto.",
+      "invalid": "Revise su nombre y su teléfono e intente de nuevo.",
+      "error": "No pudimos enviar el formulario. Intente de nuevo o escríbanos por WhatsApp."
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados.",
+      "contact": "Contacto"
+    }
+  },
+  "auth": {
+    "email": "Correo",
+    "password": "Contraseña",
+    "passwordHint": "Mínimo 8 caracteres.",
+    "fullName": "Nombre completo",
+    "signOut": "Cerrar sesión",
+    "checkEmail": "Le enviamos un correo para confirmar su cuenta. Abra el enlace para continuar.",
+    "login": {
+      "title": "Ingresar",
+      "lead": "Entre al panel de su negocio.",
+      "submit": "Ingresar",
+      "noAccount": "¿No tiene cuenta?",
+      "signupLink": "Crear cuenta"
+    },
+    "signup": {
+      "title": "Crear cuenta",
+      "lead": "Después podrá registrar su negocio.",
+      "submit": "Crear cuenta",
+      "haveAccount": "¿Ya tiene cuenta?",
+      "loginLink": "Ingresar"
+    },
+    "welcome": {
+      "title": "Registre su negocio",
+      "lead": "Con el nombre y el tipo es suficiente para empezar. Lo demás se completa en el panel.",
+      "name": "Nombre del negocio",
+      "type": "Tipo de negocio",
+      "submit": "Crear negocio",
+      "invited": "Si lo invitaron a un negocio existente, pida que la invitación se envíe a {email}."
+    },
+    "errors": {
+      "credentials": "Correo o contraseña incorrectos.",
+      "unconfirmed": "Falta confirmar su correo. Revise su bandeja de entrada.",
+      "name": "Escriba su nombre completo.",
+      "signup": "Revise el correo y use una contraseña de al menos 8 caracteres.",
+      "generic": "No pudimos completar la solicitud. Intente de nuevo.",
+      "businessName": "Escriba el nombre del negocio (entre 2 y 80 caracteres).",
+      "tooMany": "Ya alcanzó el máximo de negocios por cuenta."
+    }
+  },
+  "panel": {
+    "nav": {
+      "overview": "Resumen",
+      "catalog": "Catálogo",
+      "business": "Negocio",
+      "agent": "Agente",
+      "team": "Equipo"
+    },
+    "roles": {
+      "owner": "Dueño",
+      "employee": "Empleado"
+    },
+    "switchBusiness": "Cambiar de negocio",
+    "signOut": "Cerrar sesión",
+    "error": {
+      "title": "Algo salió mal",
+      "body": "No pudimos completar la operación.",
+      "retry": "Intentar de nuevo"
+    },
+    "messages": {
+      "nameRequired": "Escriba un nombre.",
+      "generic": "No pudimos guardar los cambios. Intente de nuevo.",
+      "saved": "Cambios guardados.",
+      "invalidProduct": "Revise el nombre y los datos del producto.",
+      "invalidPrice": "Escriba un precio válido, por ejemplo 3500.",
+      "durationRequired": "Los servicios necesitan una duración en minutos.",
+      "invalidGroup": "Revise el nombre y que el mínimo no supere al máximo.",
+      "ownerOnly": "Solo el dueño puede cambiar esto.",
+      "invalidBusiness": "Revise los datos: el nombre es obligatorio y el correo y el enlace deben ser válidos.",
+      "invalidHours": "En cada día abierto, la hora de apertura debe ser anterior a la de cierre.",
+      "invalidFaq": "Escriba la pregunta y la respuesta.",
+      "invalidAgent": "Revise los datos del agente.",
+      "invalidEmail": "Escriba un correo válido.",
+      "alreadyInvited": "Ese correo ya tiene una invitación pendiente.",
+      "invited": "Invitación registrada. La persona entra al negocio cuando cree su cuenta o ingrese con ese correo.",
+      "lastOwner": "El negocio debe conservar al menos un dueño."
+    },
+    "overview": {
+      "title": "{name}",
+      "lead": "Estado de la configuración de su negocio.",
+      "stats": {
+        "products": "Productos y servicios",
+        "faqs": "Preguntas frecuentes",
+        "members": "Personas en el equipo"
+      },
+      "setup": {
+        "title": "Información para el agente",
+        "ready": "Completa",
+        "pending": "{count, plural, one {Falta # paso} other {Faltan # pasos}}",
+        "lead": "El agente solo responde con lo que está cargado aquí. Entre más completo, mejor atiende.",
+        "review": "Revisar",
+        "complete": "Completar",
+        "steps": {
+          "business": { "title": "Datos del negocio", "body": "Teléfono, dirección y horario de atención." },
+          "catalog": { "title": "Catálogo", "body": "Productos o servicios con su precio." },
+          "faqs": { "title": "Preguntas frecuentes", "body": "Las respuestas a lo que más preguntan sus clientes." },
+          "agent": { "title": "Saludo del agente", "body": "Nombre, tono y saludo con que atiende." }
+        }
+      },
+      "agent": {
+        "title": "Agente {name}",
+        "on": "Activado",
+        "off": "Desactivado",
+        "lead": "Usará esta información cuando se conecten el WhatsApp y el teléfono del negocio."
+      }
+    },
+    "catalog": {
+      "title": "Catálogo",
+      "lead": "Lo que su negocio vende. El agente toma los precios de aquí.",
+      "newItem": "Nuevo producto o servicio",
+      "tabs": { "items": "Productos y servicios", "modifiers": "Modificadores" },
+      "empty": { "title": "Todavía no hay nada en el catálogo", "body": "Cree una categoría y agregue su primer producto o servicio." },
+      "uncategorized": "Sin categoría",
+      "editCategory": "Editar categoría",
+      "categoryName": "Nombre de la categoría",
+      "save": "Guardar",
+      "deleteCategory": "Eliminar categoría",
+      "deleteCategoryHint": "Sus productos no se borran: quedan sin categoría.",
+      "emptyCategory": "Esta categoría no tiene productos.",
+      "serviceBadge": "Servicio · {minutes} min",
+      "unavailable": "No disponible",
+      "markUnavailable": "Marcar agotado",
+      "markAvailable": "Marcar disponible",
+      "edit": "Editar",
+      "addCategory": "Agregar categoría",
+      "categoryPlaceholder": "Por ejemplo: Bebidas",
+      "add": "Agregar"
+    },
+    "product": {
+      "newTitle": "Nuevo producto o servicio",
+      "editTitle": "Editar producto o servicio",
+      "name": "Nombre",
+      "description": "Descripción",
+      "descriptionHint": "Ingredientes, qué incluye o cualquier detalle que el cliente suele preguntar.",
+      "price": "Precio ({currency})",
+      "category": "Categoría",
+      "noCategory": "Sin categoría",
+      "kind": "Tipo",
+      "kindHint": "Los productos se piden; los servicios se agendan con cita.",
+      "kindProduct": "Producto",
+      "kindService": "Servicio",
+      "duration": "Duración en minutos",
+      "durationHint": "Solo para servicios.",
+      "modifiers": "Modificadores",
+      "modifiersHint": "Opciones que el cliente puede elegir con este producto.",
+      "available": "Disponible para la venta",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar del catálogo"
+    },
+    "modifiers": {
+      "title": "Catálogo",
+      "lead": "Grupos de opciones que se pueden agregar a un producto, como tamaños o extras.",
+      "groupName": "Nombre del grupo",
+      "min": "Mínimo",
+      "max": "Máximo",
+      "save": "Guardar",
+      "noOptions": "Este grupo todavía no tiene opciones.",
+      "free": "Sin costo",
+      "remove": "Quitar",
+      "optionName": "Nueva opción",
+      "optionPrice": "Precio extra",
+      "addOption": "Agregar opción",
+      "deleteGroup": "Eliminar grupo",
+      "newGroup": "Nuevo grupo",
+      "newGroupHint": "Mínimo 0 significa que es opcional. Máximo es cuántas opciones puede elegir el cliente.",
+      "groupPlaceholder": "Por ejemplo: Tamaño",
+      "add": "Agregar"
+    },
+    "business": {
+      "title": "Negocio",
+      "lead": "La información con la que el agente responde a sus clientes.",
+      "readOnly": "Solo el dueño puede editar esta información.",
+      "save": "Guardar",
+      "weekdays": ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+      "data": {
+        "title": "Datos generales",
+        "name": "Nombre del negocio",
+        "type": "Tipo de negocio",
+        "description": "Descripción",
+        "descriptionHint": "En pocas palabras, qué ofrece su negocio.",
+        "phone": "Teléfono",
+        "whatsapp": "WhatsApp",
+        "email": "Correo",
+        "city": "Ciudad o cantón",
+        "address": "Dirección",
+        "addressHint": "Con señas, como se la daría a un cliente.",
+        "mapsUrl": "Enlace de Google Maps o Waze",
+        "policies": "Políticas",
+        "policiesHint": "Formas de pago, entregas, cancelaciones, reservas y cualquier regla que el cliente deba conocer."
+      },
+      "hours": {
+        "title": "Horario de atención",
+        "lead": "En hora de Costa Rica.",
+        "opens": "Apertura del {day}",
+        "closes": "Cierre del {day}",
+        "closed": "Cerrado",
+        "save": "Guardar horario"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes",
+        "lead": "Lo que más preguntan sus clientes y la respuesta que quiere que reciban.",
+        "question": "Pregunta",
+        "answer": "Respuesta",
+        "delete": "Eliminar pregunta",
+        "empty": "Todavía no hay preguntas frecuentes.",
+        "add": "Agregar pregunta",
+        "questionPlaceholder": "Por ejemplo: ¿Tienen parqueo?",
+        "addButton": "Agregar"
+      }
+    },
+    "agent": {
+      "title": "Agente",
+      "lead": "Cómo se presenta y se comporta su recepcionista.",
+      "readOnly": "Solo el dueño puede editar esta configuración.",
+      "name": "Nombre del agente",
+      "nameHint": "Con este nombre se presenta ante los clientes.",
+      "tone": "Tono",
+      "tones": {
+        "amable": "Amable y cercano",
+        "formal": "Formal",
+        "casual": "Casual"
+      },
+      "greeting": "Saludo",
+      "greetingHint": "La primera frase al contestar. Por ejemplo: ¡Hola! Gracias por escribir a Soda La Guaria.",
+      "instructions": "Indicaciones adicionales",
+      "instructionsHint": "Reglas propias de su negocio. Por ejemplo: ofrecer siempre el postre del día.",
+      "escalation": "Teléfono para pasar a una persona",
+      "escalationHint": "A este número se transfieren las llamadas que el agente no puede resolver.",
+      "enabled": "Agente activado",
+      "save": "Guardar"
+    },
+    "team": {
+      "title": "Equipo",
+      "lead": "Quiénes pueden entrar al panel de este negocio.",
+      "unknown": "Usuario",
+      "you": "usted",
+      "role": "Rol",
+      "save": "Guardar",
+      "remove": "Quitar",
+      "ownerOnly": "Solo el dueño puede invitar o quitar personas.",
+      "invite": {
+        "title": "Invitar a una persona",
+        "lead": "El dueño administra todo. El empleado puede ver el negocio y administrar el catálogo.",
+        "email": "Correo de la persona",
+        "submit": "Invitar",
+        "pending": "Invitaciones pendientes",
+        "revoke": "Anular"
+      }
+    }
+  }
+}
